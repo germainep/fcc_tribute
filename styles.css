@@ -1,8 +1,74 @@
+@font-face{
+  font-family: 'emulogic';
+  src: url(/font/emulogic.ttf);
+  font-family: 'goodmorningafternoon';
+  src: url(/fonts/goodmorningafternoon.ttf);
+}
+
 body {
-  background-color: slategray;
+  background-color: #777;
+}
+
+.title  {
+  font-family: 'GoodMorningAfternoon';
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: #26c;
+}
+aside {
+  margin-top: 75px;
+}
+
+#cart-body {
+  background-color: #F29B36;
+  margin-top: 50px;
+  border-radius: 21px 21px 10px 10px;
+  padding: 20px 10px 30px 5px;
+  z-index: 10;
+  box-shadow: -8px 5px 0px 5px rgba(255,170,60,1);
+}
+
+.sticker {
+  background-color: #2E2E2E;
+  margin: 15px;
+  margin-bottom: 100px;
+  padding: 10px;
+  border: 1px solid #F5A623;
+  box-shadow: inset 0px 1px 9px 4px rgba(0,0,0,0.80);
+  border-radius: 19px;
+ 
+}
+.label-para {
+  font-family: 'emulogic';
+  background-color: #fff;
+  border-radius: 19px;
+  margin: 49.5px;
+  padding: 20px;
+}
+
+#link-jerry {
+  color:antiquewhite;
+  background-color: #FFAA3C;
+  border: 6px solid #113
 }
 
 img {
+  width: 100%;
   border: 4px solid black;
-  border-radius: 5px;
+  border-radius: 9px;
+  align-content: center;
+}
+.ridges{
+  height: 10px;
+  width: 108%;
+  margin-top: 12px;
+  position: relative;
+  left: -4%;
+  background-color: #FFAA3C;
+  background-image: linear-gradient(#FFD56F, #FFB74B, #FFAA3C 50%);
+  box-shadow: 2px 5px 5px 3px rgba(0,0,0,0.60);
+  border-radius: 12px;
 }
