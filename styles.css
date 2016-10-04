@@ -7,6 +7,7 @@
 
 body {
   background-color: #777;
+  font-size: calc(0.50em +  0.5vw);
 }
 
 .title  {
