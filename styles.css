@@ -48,11 +48,24 @@ aside {
   margin: 49.5px;
   padding: 20px;
 }
+.link {
+  border: 6px solid #112;
+  box-shadow:  0px 2px 3px 4px rgba(0,0,0,0.80);
+}
 
 #link-jerry {
   color:antiquewhite;
   background-color: #FFAA3C;
-  border: 6px solid #113
+}
+
+#link-f {
+  color: #112;
+  background-color: antiquewhite;
+}
+
+#link-jerry:hover , #link-f:hover{
+  border: 1px solid #112;
+  box-shadow:  inset 0px 2px 3px 4px rgba(0,0,0,0.60);
 }
 
 img {
